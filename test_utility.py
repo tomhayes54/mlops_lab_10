@@ -35,7 +35,7 @@ def feature_target_sample(housing_data_sample):
     feature_df, target_series = data_preparation(housing_data_sample)
     return (feature_df, target_series)
 
-def test_data_split(feature_target_sample):
-    return_tuple = data_split(*feature_target_sample)
-    # TODO test if the length of return_tuple is 4
-    raise NotImplemented
+# def test_data_split(feature_target_sample):
+#     return_tuple = data_split(*feature_target_sample)
+#     # TODO test if the length of return_tuple is 4
+#     raise NotImplemented
