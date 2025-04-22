@@ -14,6 +14,7 @@ pipeline {
             steps {
                 sh '''#!/bin/bash
                 echo 'Test Step: We run testing tool like pytest here'
+                 /home/ec2-user/environment/mlops_lab_10/venv/bin/pytest
                 
                 # TODO fill out the path to conda here
                 # sudo /home/ec2-user/environment/mlops_lab_10/venv/bin/activate
