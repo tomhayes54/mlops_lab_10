@@ -29,6 +29,7 @@ def test_data_preparation(housing_data_sample):
 
     #Feature only has numerical values
     assert feature_df.shape[1] == feature_df.select_dtypes(include=(np.number,np.bool_)).shape[1]
+    assert 1 == 0
 
 @pytest.fixture
 def feature_target_sample(housing_data_sample):
