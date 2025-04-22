@@ -13,7 +13,6 @@ pipeline {
         stage('Test') {
             steps {
                 sh '''#!/bin/bash
-                echo 'Test Step: We run testing tool like pytest here'
                 sudo /home/ec2-user/environment/mlops_lab_10/venv/bin/pytest
                 
                 # TODO fill out the path to conda here
@@ -23,8 +22,8 @@ pipeline {
                 # TODO Complete the command to run pytest
                 # sudo /home/ec2-user/environment/mlops_lab_10/venv/bin/python pytest
 
-                echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                # echo 'pytest not runned'
+                # exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
