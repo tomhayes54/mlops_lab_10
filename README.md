@@ -1,5 +1,7 @@
 # Lab 10 - Continuous Integration with Jenkins
 
+Professor howard made this lab too long!
+
 In this lab, you will explore how to perform Continuous Integration(CI) using Jenkins. You are highly recommended to use team virtual machine for this lab. </br>
 Jenkins has a wide range of functionalities that facilitate the software development process. In this lab, we will focus on the Continuous Integration aspect, which means updates to the code base are continuously tested to ensure the program's quality.</br>
 The testing tool we use is [pytest](https://docs.pytest.org/en/7.1.x/index.html). It is a light weight tool that collect test cases automatically. 
